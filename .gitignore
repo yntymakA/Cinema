@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Explicitly ignoring env files for safety
+.env
+.env.local
+.env.*.local
