@@ -11,6 +11,7 @@ export const AppRoutes = () => {
   return (
     <Routes>
       {/* Public Route */}
+      
       <Route path="/login" element={<LoginPage />} />
 
       {/* Protected Routes inside MainLayout */}
@@ -29,3 +30,4 @@ export const AppRoutes = () => {
     </Routes>
   );
 };
+/* Public Route */
